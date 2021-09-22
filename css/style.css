@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+  font-family: 'Whitney', sans-serif;
+}
+
+nav{
+    background-color:#3161e0 ;
+}
+
+ul li{
+    list-style-type: none;
+    display:inline-block;
+}
+
+img{
+    position: relative;
+    float: left;
+}
+
+ul{
+    position: relative;
+    float: left;
+}
+
+button{
+    position: relative;
+    float: left;
+}
