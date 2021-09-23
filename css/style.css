@@ -170,23 +170,3 @@ h2{
     padding: 60px 0 50px;
 }
 
-/*footer*/
-footer{
-    height: 60vh;
-    background-color: rgb(24, 23, 23);
-}
-
-footer ul li{
-    list-style-type: none;
-    color: white;
-    font-weight: 600;
-}
-#below_footer h5{
-    position: relative;
-    float: left;
-}
-
-#below_footer button{
-    position: relative;
-    float: right;    
-}
