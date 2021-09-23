@@ -10,24 +10,183 @@ body{
 
 nav{
     background-color:#3161e0 ;
+    padding: 15px;
 }
 
-ul li{
-    list-style-type: none;
-    display:inline-block;
-}
-
-img{
+#logo{
     position: relative;
     float: left;
+    margin: 8px 150px;
 }
 
 ul{
     position: relative;
     float: left;
+    padding-top:15px; 
+    margin-left: 3vw;
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 25px;
+    color: white;
+    font-weight: 600;
+}
+
+#access{
+    position: relative;
+    float:right;
+    margin-top: 9px;
+    margin-right: 150px;
+    padding: 7px;
+    border-radius: 40px;
+    border: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    padding-top:100px;
+}
+
+#p_jumbo{
+    margin-top: 40px;
+    line-height: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+#jumbotrone{
+    height: 70vh;
+    background-color:tomato;
+    text-align: center;
 }
 
 button{
+    padding:15px;
+    margin: 20px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+
+}
+
+#right_button{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+#left_button i{
+    padding: 0 5px;
+}
+
+.section{
+    height:90vh;
+}
+
+.white{
+    background-color: white;
+}
+
+.grey{
+    background-color: rgb(145, 143, 143, 0.2);
+
+}
+
+#fourth{
+    background-color: rgb(145, 143, 143, 0.2);
+
+}
+
+.white img {
     position: relative;
     float: left;
+    height: 49vh;
+    margin: 150px 50px 48px 250px;
+}
+
+.white div{
+    position: relative;
+    float: right;
+    margin:145px 190px 50px 80px;
+    width: 25vw;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: bolder;
+} 
+
+.white p{
+    font-weight: 600;
+    padding-top:30px;
+    line-height:23px;
+}
+
+/*grey*/
+
+.grey img {
+    position: relative;
+    float: right;
+    height: 49vh;
+    margin: 130px 200px 48px 50px;
+}
+
+.grey div{
+    position: relative;
+    float: left;
+    margin: 150px 80px 80px 200px;
+    width: 25vw;
+}
+
+.grey p{
+    font-weight: 600;
+    padding-top:30px;
+    line-height:20px;
+}
+
+#fourth_section{
+    text-align: center;
+    background-color: rgb(145, 143, 143, 0.2);
+}
+
+#last_button{
+    background-color: rgb(150, 150, 207);
+    color: white;
+}
+
+#fourth_section i{
+    padding:0 6px;
+}
+
+#fourth_section h2{
+    padding: 60px 0 50px;
+}
+
+/*footer*/
+footer{
+    height: 60vh;
+    background-color: rgb(24, 23, 23);
+}
+
+footer ul li{
+    list-style-type: none;
+    color: white;
+    font-weight: 600;
+}
+#below_footer h5{
+    position: relative;
+    float: left;
+}
+
+#below_footer button{
+    position: relative;
+    float: right;    
 }

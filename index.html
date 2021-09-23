@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">    
-    <title>htmlcss-discord</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">    <title>htmlcss-discord</title>
   </head>
 
   <body>
         <header>
             <nav class="clearfix">
-                <img src="img\logo.svg" alt="Logo">
+                <img id="logo" src="img\logo.svg" alt="Logo">
                 <ul>
                     <li>Scarica</li>
                     <li>Perchè Discord</li>
@@ -21,30 +20,33 @@
                     <li>Sicurezza</li>
                     <li>Assistenza</li>
                 </ul>
-                <button>Accedi</button>
+                <button id="access">Accedi</button>
             </nav>
-            <div id="jumbotrone">
-                <h1>
-                    Il tuo posto per parlare
-                </h1>
-                <p>
-                    Che tu faccia parte di un club scolastico, gruppo gamer, comunità artistica<br>
-                    mondiale, o semplicemente di un gruppodi amici che vuole passare il tempo<br>
-                    assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
-                </p>
-                <button>
-                    Scarica per Mac
-                </button>
-                <button>
-                    Apri Discord nel tuo browser
-                </button>
-            </div>
+            <section id="jumbotrone">
+                    <h1>
+                        Il tuo posto per parlare
+                    </h1>
+                    <p id="p_jumbo">
+                        Che tu faccia parte di un club scolastico, gruppo gamer, comunità artistica<br>
+                        mondiale, o semplicemente di un gruppodi amici che vuole passare il tempo<br>
+                        assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                    </p>
+                </div>
+                <div>
+                    <button id="left_button">
+                        <i class="fas fa-long-arrow-alt-down"></i>Scarica per Mac
+                    </button>
+                    <button id="right_button">
+                        Apri Discord nel tuo browser
+                    </button>
+                </div>
+            </section>
         </header>
         
        <main>
            <!--image right-->
-           <section>
-               <img src="img\item1.svg" alt="item_1">
+           <section class="white section">
+               <img src="img\item1.png" alt="item_1">
                <div>
                     <h2>
                         Un luogo a<br>
@@ -62,11 +64,11 @@
                </div>
            </section>
            <!--image left-->
-           <section>
+           <section class="grey section">
                 <img src="img\item2.svg" alt="item_2">
                 <div>
                     <h2>
-                        dove travarsi è<br>
+                        Dove travarsi è<br>
                         facile
                     </h2>
                     <p>
@@ -78,8 +80,8 @@
                 </div>
             </section>
             <!--image right-->
-            <section>
-                <img src="img\item3.svg" alt="item_3">
+            <section class="white section">
+                <img src="img\item3.png" alt="item_3">
                 <div>
                     <h2>
                         Da pochi a<br>
@@ -93,23 +95,16 @@
                 </div>
             </section>
             <!--image left-->
-            <section>
-                <img src="img\item4-big.svg" alt="item_4">
-                <div>
+            <section id="fourth_section">
                     <h2>
-                      tecnologia affidabile per tenersi in contatto  
+                        Tecnologia affidabile per tenersi in contatto  
                     </h2>
-                    <p>Video e audio a bassa latenza ti faranno sentire come se foste nella stessa stanza fai Ciao in video guarda<br>
-                         gli amici giocare streaming riunitevi in una sessione di disegno con la condivisione schermo</p>
-                </div>
+                    <p>   Video e audio a bassa latenza ti faranno sentire come se foste nella stessa stanza fai Ciao in video guarda<br>
+                        gli amici giocare streaming riunitevi in una sessione di disegno con la condivisione schermo
+                    </p>
+                    <img id="te" src="img\item4-big.svg" alt="item_4">
+                    <h4>Pronto a iniziare la tua avventura?</h4>
+                    <button id="last_button"><i class="fas fa-long-arrow-alt-down"></i>Scarica per Mac</button>
             </section>
-
        </main>
-
     </body>
-
-  <footer>
-
-  </footer>
-
-</html>
